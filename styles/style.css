@@ -1,6 +1,8 @@
 .header {
     display: flex;
     padding: 92px 50px;
+    width: 1440px;
+    align-items: center;
 }
 
 .header_menu {
@@ -11,7 +13,6 @@
 .header_links-list{
     display: flex;
     color: #000;
-    font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -46,3 +47,21 @@
     height: 105px;
 }
 
+.header-address {
+    display: block;
+}
+
+.contact, .address {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.3px;
+    margin-top: 1px;
+    margin-right: 2px;
+}
+
+.contact {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
