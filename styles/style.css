@@ -92,7 +92,6 @@
     flex-direction: column;
     z-index: 0;
     color: #FFF;
-    font-family: Raleway;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
@@ -120,4 +119,40 @@
 
 .no-letter-spacing {
     letter-spacing: 0;
+}
+
+.cover_description {
+    display: flex;
+    justify-content: center;
+    margin-top: 134px;
+    margin-left: 340px;
+}
+
+.cover_description-text {
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 28px;
+    text-transform: uppercase;
+    word-spacing: 17px;
+    padding: 12px 32px;
+}
+
+.word-spacing-extended {
+    word-spacing: 22px;
+}
+
+.bet-button {
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    text-transform: uppercase;
+    border: solid 1px;
+    padding: 12px 32px;
+    margin-left: 46px;
 }
