@@ -107,8 +107,17 @@
 
 .aligned-text_center {
     text-align: center;
+    margin-top: 13px;
+    margin-left: 1px;
 }
 
 .aligned-text_right {
     text-align: right;
+    line-height: 100%;
+    margin-top: 13px;
+    margin-right: -1px;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0;
 }
