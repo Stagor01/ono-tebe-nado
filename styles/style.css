@@ -79,10 +79,8 @@
 }
 
 .overlay {
-    background-color: rgb(0 0 0 / 0.6);
-    width: 1440px;
-    height: 757px;
     position: absolute;
+    background-color: rgb(0 0 0 / 0.6);
     inset: 0;
     z-index: -1;
 }
@@ -155,4 +153,120 @@
     border: solid 1px;
     padding: 12px 32px;
     margin-left: 46px;
+}
+
+.lots {
+    display: flex;
+    position: relative;
+    width: 100%;
+    max-width: 1340px;
+    height: 579px;
+    margin: 180px 50px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.lots_heading {
+    display: flex;
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 40px;
+    margin-bottom: 27px;
+}
+
+.lots_card-list {
+    display: flex;
+    gap: 25px;
+}
+
+.lots_card-list-item {
+    display: flex;
+    flex-basis: 430px;
+    min-height: 450px;
+    flex-grow: 1;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 430px;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    z-index: -2;
+}
+
+.card_type_film {
+    background-image: url(../images/card-lot-01.jpg);   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card_type_book {
+    background-image: url(../images/card-lot-02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card_type_picture {
+    background-image: url(../images/card-lot-03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card_title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 350px;
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 26.4px */
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.card_text {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 350px;
+    height: 96px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.card_type_book .card_text {
+    height: 240px;
+}
+
+.card_type_picture .card_text {
+    height: 192px;
+}
+
+.lots_look-more-link {
+    width: 192px;
+    height: 23px;
+    margin-top: 30px;
+    margin-left: 40px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: underline;
+    text-underline-offset: 4px;
 }
