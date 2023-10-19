@@ -270,3 +270,12 @@
     text-decoration: underline;
     text-underline-offset: 4px;
 }
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 2fr;   
+    position: relative;
+    width: 1340px;
+    height: 487px;
+    background-color: aqua;
+}
