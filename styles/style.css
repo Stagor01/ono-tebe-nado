@@ -17,6 +17,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    white-space: nowrap;
     gap: 33px;
     padding: 43px 0 45px;
 }
@@ -195,7 +196,7 @@
 }
 
 .card_type_film {
-    background-image: url(../images/card-lot-01.jpg);   
+    background-image: url(../images/card-lot-01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -267,7 +268,7 @@
 .about {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 2fr 1fr 1fr;  
+    grid-template-rows: 2fr 1fr 1fr;
     position: relative;
     width: 1340px;
     height: 487px;
@@ -306,6 +307,7 @@
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+    white-space: nowrap;
     width: 291px;
     height: 47px;
 }
