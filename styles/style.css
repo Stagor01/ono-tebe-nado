@@ -19,13 +19,10 @@
     line-height: normal;
     gap: 33px;
     padding: 43px 0 45px;
-    list-style: none;
 }
 
 .header_link_active {
-    text-decoration: none;
     justify-content: flex-start;
-    
 }
 
 .header_link {
@@ -45,10 +42,6 @@
 .header_logo-image {
     width: 148px;
     height: 105px;
-}
-
-.header-address {
-    display: block;
 }
 
 .contact, .address {
@@ -342,4 +335,42 @@
     width: 885px;
     height: 119px;
     margin-bottom: 1px;
+}
+
+.footer {
+    display: flex;
+    width: 1340px;
+    height: 97px;
+    margin: 0 50px 90px;
+    padding-top: 1px;
+    justify-content: space-between;
+}
+
+.footer_menu {
+    display: flex;
+}
+
+.footer_menu_list {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer_menu-link {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.footer_social-list {
+    display: flex;
+    max-width: 240px;
+    height: 48px;
+    gap: 50px;
+}
+
+.footer_social-icon {
+    max-width: 100%;
 }
