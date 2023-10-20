@@ -15,3 +15,25 @@
   font-weight: bold;
   font-display: swap;
 }
+
+@font-face {
+  font-family: Ubuntu;
+  src:
+    local('Ubuntu'), local('ubuntu'),
+    url(https://pictures.s3.yandex.net/fonts/ubuntu.woff2) format('woff2'),
+    url(https://pictures.s3.yandex.net/fonts/ubuntu.woff) format('woff'),
+    url(https://pictures.s3.yandex.net/fonts/ubuntu.ttf) format('truetype');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat Regular';
+  src:
+    local('Montserrat Regular'), local('montserrat-regular'),
+    url(./montserrat-regular.woff2) format('woff2'),
+    url(./montserrat-regular.woff) format('woff'),
+    url(./montserrat-regular.ttf) format('truetype');
+  font-weight: normal;
+  font-display: swap;
+}
